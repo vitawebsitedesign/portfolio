@@ -1,0 +1,146 @@
+body {
+	background:url('../img/bg.jpg');
+	color:#1c1c1c;
+	font-family:'Roboto', Arial;
+	font-size:1em;
+	font-weight:300;
+}
+h1 {
+	background:url("../img/bg-michael-nguyen.png");
+	color:#ffffff;
+	font-family:'Roboto Condensed';
+	font-size:5em;
+	font-variant:small-caps;
+	font-weight:400;
+	height:149px;
+	line-height:223px;
+	text-align:center;
+	width:449px;
+}
+h2 {
+	color:#0cc39b;
+	font-size:3em;
+	font-weight:700;
+	margin-bottom:63px;
+	text-align:center;	
+}
+h3 {
+	font-size:1.2em;
+	font-weight:bold;
+	margin:10px 0 10px 0;
+}
+h4 {
+	font-size:1.4em;
+	font-variant:small-caps;
+	margin-bottom:22px;
+}
+header {
+	border-bottom:3px solid #1c1c1c;
+	margin:0 auto 46px auto;
+	padding-bottom:3px;	
+	width:85%;
+}
+nav {
+	float:right;	
+	margin-top:-33px;
+	width:100%;
+}
+nav ul {
+	text-align:right;
+	width:100%;
+}
+nav ul li {
+	color:white;
+	background:#1c1c1c;
+	display:inline;
+	font-size:1.3em;
+	font-variant:small-caps;
+	font-weight:400;
+	padding:10px;	
+}
+nav ul li:first-child {
+	margin-right:1%;	
+}
+aside {
+	float:left;
+	margin-right:10%;
+	width:25%;
+}
+aside ul {
+	line-height:37px;
+}
+aside ul li {
+	background:black;
+	color:white;
+	display:inline;
+	font-family:"Calibri Light", Arial;
+	font-size:1.2em;
+	font-variant:small-caps;
+	margin-right:4%;
+	padding:0 20px 0 10px;
+}
+p {
+	float:left;
+	font-family:'Calibri Light', Arial;
+	font-size:1.1em;
+	margin-top:47px;
+	width:50%;
+}
+
+a:link {
+	color:white;
+	text-decoration:none;
+}
+a:visited {
+	color:white;	
+}
+a:hover {
+	color:white;	
+}
+a:active {
+	color:white;	
+}
+
+#wrapper {
+	margin:0 auto 60px auto;
+	width:90%;
+}
+#timer {
+	font-size:3em;
+	text-align:center;
+}
+#timer span {
+	color:#0cc39b;
+	font-weight:700;
+}
+#timer-subtext {
+	font-size:0.4em;
+	font-weight:300;
+}
+
+#slideshow {
+	margin-top:220px;
+	overflow:auto;
+}
+#slideshow article{
+	background:#1c1c1c;
+	box-shadow:0 0 15px black;	
+	float:left;
+	margin:0 2% 0 2%;
+	padding:0 1% 2% 1%;
+	width:19%;
+}
+.slideshow-desc {
+	color:#ffffff;
+	font-family:'Calibri Light', Arial;		
+}
+.slideshow-desc ul {
+	list-style:square;
+	margin-left:30px;	
+}
+
+#content-inset {
+	margin:0 auto 60px auto;
+	overflow:hidden;
+	width:80%
+}
